@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS raw_data (
+     VendorID INT,
+        tpep_pickup_datetime TIMESTAMP,
+        tpep_dropoff_datetime TIMESTAMP,
+        passenger_count INT,
+        trip_distance FLOAT,
+        pickup_longitude FLOAT,
+        pickup_latitude FLOAT,
+        RatecodeID INT,
+        store_and_fwd_flag TEXT,
+        dropoff_longitude FLOAT,
+        dropoff_latitude FLOAT,
+        payment_type INT,
+        fare_amount FLOAT,
+        extra FLOAT,
+        mta_tax FLOAT,
+        tip_amount FLOAT,
+        tolls_amount FLOAT,
+        improvement_surcharge FLOAT,
+        total_amount FLOAT
+);
